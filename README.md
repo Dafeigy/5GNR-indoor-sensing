@@ -13,9 +13,9 @@ In order to make full use of the flexible and multi-antenna characteristics of 5
 -Used for motion recognition demonstration in action games`videos\ActionControl-SFV.mp4`. In this demo, the characters will perform punches, left and right movements, squats, kicks, and exquisite combat power actions to correspond to the actions of the characters in the fighting game.
 
 
-There is also a demo`videos\2077.mp4' that uses other custom actions for training and perception in driving games, where Cyberpunk 2077 is selected for display.：
+There is also a demo `videos\2077.mp4` that uses other custom actions for training and perception in driving games, where Cyberpunk 2077 is selected for display.：
 
-The perception algorithm is effective. We applied the same algorithm to the base station of H3C, and the corresponding motion recognition can also be achieved. See`videos\H3C.mp4' for details. The white square box of the mobile cabinet is the RRU.
+The perception algorithm is effective. We applied the same algorithm to the base station of H3C, and the corresponding motion recognition can also be achieved. See `videos\H3C.mp4` for details. The white square box of the mobile cabinet is the RRU.
 
 
 Please note: there was no open source plan for the work of this article at the beginning, so there are many irregularities and improprieties in the commit, please forgive me. The author no longer conducts research in the field of communication, so he decided to make these works public to help follow-up researchers accelerate related research and promote the development of communication, but the corresponding author will not maintain these codes. If you need to learn more about the business cooperation or visit of this project, you can contact Sony China Research Institute (Beijing) to negotiate. I would like to thank all the leaders and colleagues of Sony China Research Institute for their support and cooperation.
