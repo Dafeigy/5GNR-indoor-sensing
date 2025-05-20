@@ -4,23 +4,16 @@
 
 为了可以充分利用5GNR的灵活、多天线特点以及探究未来通感一体化的发展，本项目基于OpenAirInterface5G的RAN，构建了一套使用SRS信号进行室内人体活动感知的方法，可以实现10ms以内的实时人体活动感知，在六分类任务中达到了99.9%以上的识别准确率。
 
-本项目的开源部分的代码遵循MIT协议，任何人都可使用、转发、商业用途。以下是本项目的部分实际运行时的展示：
+本项目的开源部分的代码遵循MIT协议，任何人都可使用、转发、商业用途。由于README不支持视频播放，需要自行导航导对应项目位置进行查看：
 
-- 跌倒检测的展示。在这个Demo中，SRS-Front的可视化平台中右侧部分显示的内容为跌倒/非跌倒的状态指示，绿色的标记即为非得到，红色的警铃符号则为跌倒。该Demo展示了在多个角度、不同跌倒方式都可被准确识别。
+- 跌倒检测的展示`videos\FallDetect.mp4`。在这个Demo中，SRS-Front的可视化平台中右侧部分显示的内容为跌倒/非跌倒的状态指示，绿色的标记即为非得到，红色的警铃符号则为跌倒。该Demo展示了在多个角度、不同跌倒方式都可被准确识别。
 
-<video controls src="https://github.com/Dafeigy/5GNR-indoor-sensing/raw/refs/heads/main/videos/FallDetect.mp4" title="跌倒检测"></video>
-
-
-- 用于动作游戏中的动作识别演示。在这个demo中，人物将执行出拳、左右移动、下蹲、踢腿、精致战力的动作，以对应格斗游戏中的人物操作。
-
-<video controls src="https://github.com/Dafeigy/5GNR-indoor-sensing/raw/refs/heads/main/videos/ActionControl-SFV.mp4" title="SFV-control"></video>
+- 用于动作游戏中的动作识别演示`videos\ActionControl-SFV.mp4`。在这个demo中，人物将执行出拳、左右移动、下蹲、踢腿、精致战力的动作，以对应格斗游戏中的人物操作。
 
 
-同样的还有在驾驶游戏中使用其他自定义的动作进行训练并进行感知的demo，在这里选择了赛博朋克2077进行展示：
+同样的还有在驾驶游戏中使用其他自定义的动作进行训练并进行感知的demo`videos\2077.mp4`，在这里选择了赛博朋克2077进行展示：
 
-<video controls src="https://github.com/Dafeigy/5GNR-indoor-sensing/raw/refs/heads/main/videos/2077.mp4" title="2077"></video>
-
-感知算法是有效的。我们在H3C的基站上应用了相同的算法，也可实现对应的动作识别，如下所示：
+感知算法是有效的。我们在H3C的基站上应用了相同的算法，也可实现对应的动作识别，详见`videos\H3C.mp4`。移动机柜白色的方形盒子即为RRU。
 
 
 本项目的相关工作荣获索尼2023年 IISC Ownership Award奖项，并接受了中央电视台旗下的中国国际电视台的[采访](https://news.cgtn.com/news/2023-11-21/Sony-stays-bullish-on-China-amidst-global-uncertainties-1oTehGgblBe/index.html)：
