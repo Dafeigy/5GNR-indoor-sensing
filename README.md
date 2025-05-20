@@ -10,17 +10,24 @@
 
 <video src="/videos/FallDetect.mp4"></video>
 
+![跌倒检测](videos/FallDetect.mp4)
+
 - 用于动作游戏中的动作识别演示。在这个demo中，人物将执行出拳、左右移动、下蹲、踢腿、精致战力的动作，以对应格斗游戏中的人物操作。
 
-<video src="/videos/ActionControl-SFV.mp4"></video>
+<!-- <video src="/videos/ActionControl-SFV.mp4"></video> -->
+![SFV](/videos/ActionControl-SFV.mp4)
+
+同样的还有在驾驶游戏中使用其他自定义的动作进行训练并进行感知的demo，在这里选择了赛博朋克2077进行展示：
+
+![2077](/videos/2077.mp4)
 
 感知算法是有效的。我们在H3C的基站上应用了相同的算法，也可实现对应的动作识别，如下所示：
 
-<video src=""></video>
 
 本项目的相关工作荣获索尼2023年 IISC Ownership Award奖项，并接受了中央电视台旗下的中国国际电视台的[采访](https://news.cgtn.com/news/2023-11-21/Sony-stays-bullish-on-China-amidst-global-uncertainties-1oTehGgblBe/index.html)：
 
-<img src="/imgs/interview.jpg">
+
+![本人接受CGTN采访](/imgs/interview.jpg)
 
 
 该项目正在与国内的大型基站设备生产商进行合作，感知算法已成功和商用基站产品接轨，并在进一步扩展、探究感知的范围与精度以及考虑新一代的基站产品研发。
