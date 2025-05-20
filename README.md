@@ -8,18 +8,17 @@
 
 - 跌倒检测的展示。在这个Demo中，SRS-Front的可视化平台中右侧部分显示的内容为跌倒/非跌倒的状态指示，绿色的标记即为非得到，红色的警铃符号则为跌倒。该Demo展示了在多个角度、不同跌倒方式都可被准确识别。
 
-<video src="/videos/FallDetect.mp4"></video>
+<video controls src="https://github.com/Dafeigy/5GNR-indoor-sensing/raw/refs/heads/main/videos/FallDetect.mp4" title="跌倒检测"></video>
 
-![跌倒检测](videos/FallDetect.mp4)
 
 - 用于动作游戏中的动作识别演示。在这个demo中，人物将执行出拳、左右移动、下蹲、踢腿、精致战力的动作，以对应格斗游戏中的人物操作。
 
-<!-- <video src="/videos/ActionControl-SFV.mp4"></video> -->
-![SFV](/videos/ActionControl-SFV.mp4)
+<video controls src="https://github.com/Dafeigy/5GNR-indoor-sensing/raw/refs/heads/main/videos/ActionControl-SFV.mp4" title="SFV-control"></video>
+
 
 同样的还有在驾驶游戏中使用其他自定义的动作进行训练并进行感知的demo，在这里选择了赛博朋克2077进行展示：
 
-![2077](/videos/2077.mp4)
+<video controls src="https://github.com/Dafeigy/5GNR-indoor-sensing/raw/refs/heads/main/videos/2077.mp4" title="2077"></video>
 
 感知算法是有效的。我们在H3C的基站上应用了相同的算法，也可实现对应的动作识别，如下所示：
 
